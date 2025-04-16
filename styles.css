@@ -1,0 +1,112 @@
+/* Top Menu */
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4285f4; /* Background color */
+    color: white !; /* Text color in the menu */
+    padding: 5px; /* Spacing of the text in the menu */
+    z-index: 1; /* z-index value to keep the menu on top */
+}
+
+/* Dropdown */
+.dash-dropdown,
+#input-language-dropdown,
+#output-language-dropdown {
+    border: 3px solid #4285f4; /* Border color */
+    border-radius: 10px;
+}
+
+/* Dropdown Options */
+.dash-dropdown .Select-control,
+.dash-dropdown .Select-option {
+    background-color: #f8f9fa; /* Background color */
+    color: #000000; /* Text color */
+}
+
+.dash-dropdown .Select-control:hover,
+.dash-dropdown .Select-option:hover {
+    background-color: #e9ecef; /* Background color on hover */
+}
+
+.dash-dropdown .Select-control:focus {
+    border-color: #4285f4; /* Border color when focused */
+    box-shadow: grey; /* No shadow */
+}
+
+.dash-dropdown .Select-option.is-focused {
+    background-color: #d6d8db; /* Background color when focused */
+}
+
+/* Textarea */
+.dash-textarea-container textarea {
+    border: 3px #4285f4;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Background color */
+    color: #000000; /* Text color */
+}
+
+.dash-textarea-container textarea:hover {
+    border: 3px #4285f4;
+    background-color: #e9ecef; /* Background color on hover */
+}
+
+.dash-textarea-container {
+    border: 3px solid #4285f4; /* เพิ่ม border กล่อง */
+    border-radius: 10px; /* สร้างขอบโค้ง */
+}
+
+/* Submit Button */
+#submit-val {
+    font-weight: bold;
+    width: 120px; /* Width */
+    height: 50px; /* Height */
+    cursor: pointer;
+    background-color: #fbbc05; /* Background color */
+    color: #000000; /* Text color */
+    border: 10; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add transition on hover or click */
+}
+
+#submit-val:hover {
+    background-color: #34a853; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+
+/* RangeSlider */
+.dash-rangeslider {
+    margin-bottom: 20px; /* Spacing */
+}
+
+.dash-rangeslider .rangeslider {
+    background-color: #e6e6e6; /* Slider background color */
+}
+
+.dash-rangeslider .rangeslider-horizontal .rangeslider-range {
+    background-color: #004AAD; /* Slider border color */
+}
+
+.dash-rangeslider .rangeslider-horizontal .rangeslider-handle {
+    background-color: #004AAD; /* Slider handle color */
+    border: 5px solid #004AAD; /* Slider handle border color */
+    border-radius: 5px;
+    box-shadow: grey; /* No shadow */
+}
+
+.dash-rangeslider .rangeslider-horizontal .rangeslider-handle:hover,
+.dash-rangeslider .rangeslider-horizontal .rangeslider-handle:active {
+    background-color: #000000; /* Handle color on hover or click */
+    border: 2px solid #000000; /* Border color on hover or click */
+}
+
+/* Footer */
+.footer {
+    position: relative; /* เปลี่ยนเป็น relative position */
+    bottom: 0; /* จัด footer ไปที่ล่างของ container */
+    width: 100%; /* ให้ footer ขยายตามความกว้างของ container */
+    background-color: #4285f4; /* เปลี่ยนสีพื้นหลังตามที่คุณต้องการ */
+    color: 	#fbbc05; /* เปลี่ยนสีข้อความตามที่คุณต้องการ */
+    padding: 10px; /* ปรับขนาดของ padding ตามที่ต้องการ */
+}
